@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="62" y="141"/>
         </scene>
-        <!--Fruit View Controller-->
+        <!--Fast Food View Controller-->
         <scene sceneID="gca-iU-HzZ">
             <objects>
-                <viewController storyboardIdentifier="FruitViewController" id="e4J-hZ-aOc" customClass="FruitViewController" customModule="questview" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FruitViewController" id="e4J-hZ-aOc" customClass="FastFoodViewController" customModule="questview" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PcC-B9-PnC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,6 +108,9 @@
                                 <state key="normal" title="Peach">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="peachButton:" destination="e4J-hZ-aOc" eventType="touchUpInside" id="hpI-lq-S0V"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byl-PG-AUC">
                                 <rect key="frame" x="136" y="427" width="143" height="46"/>
@@ -118,6 +121,9 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.67130465645289528" green="1" blue="0.69213850363791174" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="watermelonButton:" destination="e4J-hZ-aOc" eventType="touchUpInside" id="Srb-1u-HLI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otg-hA-VYd">
                                 <rect key="frame" x="136" y="516" width="143" height="46"/>
@@ -127,6 +133,9 @@
                                 <state key="normal" title="Grapes">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="grapesButton:" destination="e4J-hZ-aOc" eventType="touchUpInside" id="Be7-SK-bKi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-QQ-7Fw">
                                 <rect key="frame" x="160" y="629" width="95" height="80"/>
@@ -137,6 +146,9 @@
                         <color key="backgroundColor" red="1" green="0.89400812493046011" blue="0.9584743629202982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0Yl-yZ-T9B"/>
                     </view>
+                    <connections>
+                        <outlet property="emojiButton2" destination="CAe-QQ-7Fw" id="Nv7-vb-U1b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BS2-xl-r0y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
