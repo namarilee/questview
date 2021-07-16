@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		7A6263A326A0D02E00CA4FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263A226A0D02E00CA4FB3 /* AppDelegate.swift */; };
 		7A6263A526A0D02E00CA4FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263A426A0D02E00CA4FB3 /* SceneDelegate.swift */; };
-		7A6263A726A0D02E00CA4FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263A626A0D02E00CA4FB3 /* ViewController.swift */; };
+		7A6263A726A0D02E00CA4FB3 /* FastFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263A626A0D02E00CA4FB3 /* FastFoodViewController.swift */; };
 		7A6263AA26A0D02E00CA4FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6263A826A0D02E00CA4FB3 /* Main.storyboard */; };
 		7A6263AD26A0D02E00CA4FB3 /* questview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263AB26A0D02E00CA4FB3 /* questview.xcdatamodeld */; };
 		7A6263AF26A0D03400CA4FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6263AE26A0D03400CA4FB3 /* Assets.xcassets */; };
 		7A6263B226A0D03400CA4FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6263B026A0D03400CA4FB3 /* LaunchScreen.storyboard */; };
 		7A6263BD26A0D03500CA4FB3 /* questviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263BC26A0D03500CA4FB3 /* questviewTests.swift */; };
 		7A6263C826A0D03500CA4FB3 /* questviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263C726A0D03500CA4FB3 /* questviewUITests.swift */; };
+		7A6263D626A0E16900CA4FB3 /* FruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6263D526A0E16900CA4FB3 /* FruitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		7A62639F26A0D02E00CA4FB3 /* questview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = questview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6263A226A0D02E00CA4FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6263A426A0D02E00CA4FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A6263A626A0D02E00CA4FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A6263A626A0D02E00CA4FB3 /* FastFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodViewController.swift; sourceTree = "<group>"; };
 		7A6263A926A0D02E00CA4FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A6263AC26A0D02E00CA4FB3 /* questview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = questview.xcdatamodel; sourceTree = "<group>"; };
 		7A6263AE26A0D03400CA4FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		7A6263C326A0D03500CA4FB3 /* questviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = questviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6263C726A0D03500CA4FB3 /* questviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questviewUITests.swift; sourceTree = "<group>"; };
 		7A6263C926A0D03500CA4FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6263D526A0E16900CA4FB3 /* FruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 		7A6263A126A0D02E00CA4FB3 /* questview */ = {
 			isa = PBXGroup;
 			children = (
+				7A6263D526A0E16900CA4FB3 /* FruitViewController.swift */,
 				7A6263A226A0D02E00CA4FB3 /* AppDelegate.swift */,
 				7A6263A426A0D02E00CA4FB3 /* SceneDelegate.swift */,
-				7A6263A626A0D02E00CA4FB3 /* ViewController.swift */,
+				7A6263A626A0D02E00CA4FB3 /* FastFoodViewController.swift */,
 				7A6263A826A0D02E00CA4FB3 /* Main.storyboard */,
 				7A6263AE26A0D03400CA4FB3 /* Assets.xcassets */,
 				7A6263B026A0D03400CA4FB3 /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6263A726A0D02E00CA4FB3 /* ViewController.swift in Sources */,
+				7A6263A726A0D02E00CA4FB3 /* FastFoodViewController.swift in Sources */,
+				7A6263D626A0E16900CA4FB3 /* FruitViewController.swift in Sources */,
 				7A6263A326A0D02E00CA4FB3 /* AppDelegate.swift in Sources */,
 				7A6263A526A0D02E00CA4FB3 /* SceneDelegate.swift in Sources */,
 				7A6263AD26A0D02E00CA4FB3 /* questview.xcdatamodeld in Sources */,
