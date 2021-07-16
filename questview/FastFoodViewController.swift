@@ -15,6 +15,7 @@ class FastFoodViewController: UIViewController {
     
     @IBOutlet weak var emojiButton2: UIButton!
     
+    @IBOutlet weak var emojiButton3: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -45,6 +46,18 @@ class FastFoodViewController: UIViewController {
     
     @IBAction func grapesButton(_ sender: UIButton) {
         emojiButton2.setTitle("🍇", for: .normal)
+    }
+    
+    @IBAction func mobileButton(_ sender: UIButton) {
+        emojiButton3.setTitle("📲", for: .normal)
+    }
+    
+    @IBAction func webButton(_ sender: UIButton) {
+        emojiButton3.setTitle("💻", for: .normal)
+    }
+    
+    @IBAction func dataButton(_ sender: UIButton) {
+        emojiButton3.setTitle("📊", for: .normal)
 
     }
 }
